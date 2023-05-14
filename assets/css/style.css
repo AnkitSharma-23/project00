@@ -1,0 +1,218 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+:root {
+    --fs-sm: 16px;
+    --fs-md: 22px !important;
+    --fs-lg: 48px;
+    --fs-xl: 96px;
+}
+
+.fs-sm {
+    font-size: var(--fs-sm);
+}
+
+.fs-md {
+    font-size: var(--fs-md);
+}
+
+.fs-lg {
+    font-size: var(--fs-lg);
+}
+
+.fs-xl {
+    font-size: var(--fs-xl);
+}
+
+.w-100 {
+    width: 100%;
+}
+
+.cursor-pointer:hover {
+    cursor: pointer;
+}
+
+.bg-color {
+    background-color: #252930;
+}
+
+.bg-img {
+    background-image: url(/assets/img/png/Rectangle\ 38.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.left-arrow {
+    width: 62px;
+    height: 108px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    position: absolute;
+    left: 8%;
+    top: 40%;
+}
+
+.right-arrow {
+    width: 62px;
+    height: 108px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    position: absolute;
+    right: 8%;
+    top: 40%;
+}
+
+.head {
+    max-width: 927px;
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 96px;
+    color: #FFFFFF;
+}
+
+.c-blue {
+    color: #4D73F8;
+}
+
+.p-1 {
+    max-width: 800px;
+    text-align: center;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    color: #FFFFFF;
+}
+
+.btn-1 {
+    font-family: 'Roboto';
+    background: #4D73F8;
+    color: #FFFFFF;
+    border: #4D73F8;
+    border-radius: 74px;
+    padding: 15px 30px;
+}
+
+.color-black {
+    color: black;
+}
+
+.bg-color {
+    background-color: #F6F8FC;
+}
+
+.icon {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: #FFFFFF;
+}
+
+.heading {
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 700;
+}
+
+.passage {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    color: #252930;
+}
+
+.c-black {
+    background-color: #000;
+}
+
+.bg-color-2 {
+    background-color: #485258;
+}
+
+.p-f {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    color: #211 212 214;
+}
+
+.icon-p {
+    width: 339px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    color: #FFFFFF;
+}
+
+.slick-dots li button:before {
+    font-size: 15px !important;
+    color: #4D73F8 !important;
+}
+
+.slick-dots {
+    position: absolute !important;
+    bottom: 15px !important;
+    left: 0px;
+
+
+}
+
+.slick-slider {
+    position: static !important;
+
+}
+
+@media (max-width:992px) {
+    :root {
+        --fs-sm: 16px;
+        --fs-md: 22px;
+        --fs-lg: 38px;
+        --fs-xl: 50px;
+    }
+
+    .flex-direction-c {
+        flex-direction: column;
+    }
+
+
+
+
+}
+
+@media (max-width:768px) {
+    :root {
+        --fs-sm: 12px;
+        --fs-md: 16px;
+        --fs-lg: 30px;
+        --fs-xl: 40px;
+    }
+
+    .flex-direction-r {
+        flex-direction: column-reverse;
+
+    }
+
+
+
+}
+
+@media (max-width:576px) {
+    :root {
+        --fs-sm: 12px;
+        --fs-md: 16px;
+        --fs-lg: 30px;
+        --fs-xl: 48px;
+    }
+
+
+}
