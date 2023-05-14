@@ -183,10 +183,6 @@
     .flex-direction-c {
         flex-direction: column;
     }
-
-
-
-
 }
 
 @media (max-width:768px) {
@@ -201,9 +197,6 @@
         flex-direction: column-reverse;
 
     }
-
-
-
 }
 
 @media (max-width:576px) {
