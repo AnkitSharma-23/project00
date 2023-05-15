@@ -12,7 +12,7 @@
 
 :root {
     --fs-sm: 16px;
-    --fs-md: 22px !important;
+    --fs-md: 22px;
     --fs-lg: 48px;
     --fs-xl: 96px;
 }
@@ -70,13 +70,16 @@
     right: 8%;
     top: 40%;
 }
+.padb-50{
+    padding-bottom: 50px;
+}
 
 .head {
     max-width: 927px;
     font-family: 'Josefin Sans';
     font-style: normal;
     font-weight: 700;
-    font-size: 96px;
+
     color: #FFFFFF;
 }
 
@@ -172,6 +175,34 @@
 
 }
 
+@media (max-width:576px) {
+    :root {
+        --fs-sm: 12px;
+        --fs-md: 16px !important;
+        --fs-lg: 30px;
+        --fs-xl: 35px;
+    }
+    .padb-50{
+        padding-bottom: 0px;
+    }
+
+
+}
+
+@media (max-width:768px) {
+    :root {
+        --fs-sm: 12px;
+        --fs-md: 22px;
+        --fs-lg: 30px;
+        --fs-xl: 40px;
+    }
+
+    .flex-direction-r {
+        flex-direction: column-reverse;
+
+    }
+}
+
 @media (max-width:992px) {
     :root {
         --fs-sm: 16px;
@@ -183,29 +214,4 @@
     .flex-direction-c {
         flex-direction: column;
     }
-}
-
-@media (max-width:768px) {
-    :root {
-        --fs-sm: 12px;
-        --fs-md: 16px;
-        --fs-lg: 30px;
-        --fs-xl: 40px;
-    }
-
-    .flex-direction-r {
-        flex-direction: column-reverse;
-
-    }
-}
-
-@media (max-width:576px) {
-    :root {
-        --fs-sm: 12px;
-        --fs-md: 16px;
-        --fs-lg: 30px;
-        --fs-xl: 48px;
-    }
-
-
 }
